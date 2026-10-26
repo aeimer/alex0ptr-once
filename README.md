@@ -35,6 +35,8 @@ TOKEN = "{{ exec(command='once --ttl 12h --no-dir -- op read op://Private/someth
 go install github.com/alex0ptr/once@latest   # Go 1.27+, no dependencies besides the standard library
 ```
 
+Prebuilt binaries are attached to each [GitHub release](https://github.com/alex0ptr/once/releases).
+
 macOS and Linux only.
 
 ## Usage
